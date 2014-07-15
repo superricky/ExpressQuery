@@ -1,6 +1,6 @@
 #coding: utf-8
 module ExpressQuery
-	module myHelper
+	class myHelper
 		def my_helper
             timee=DateTime.parse(Time.now.to_i).strtime('%h:%m:%s').to_s
             date=DateTime.parse(Time.new.to_s).strtime('%y-%m-%d').to_s

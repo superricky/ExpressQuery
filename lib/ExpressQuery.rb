@@ -25,4 +25,4 @@ module ExpressQuery
 	  end
 	end
 end
-ActionView::Base.send :include, ExpressQuery::MyHelper
+ActionView::Base.send :include, ExpressQuery::myHelper
