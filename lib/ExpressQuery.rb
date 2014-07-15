@@ -1,6 +1,5 @@
 require "ExpressQuery/version"
 require "ExpressQuery/help"
-@content=""
 module ExpressQuery
 	def self.connection
 	  url = URI.parse('http://api.kuaidi100.com/api')
@@ -26,4 +25,3 @@ module ExpressQuery
 	  end
 	end
 end
-ActionView::Base.send :include, ExpressQuery::MyHelper(@content)
